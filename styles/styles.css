@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Config */
+
+header {
+    background-color: #2E948A;
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    height: 100px;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+#header-wrapper, #footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.menu-header a {
+    text-decoration: none;
+    color: #fff;
+    padding: 25px;
+}
+
+.container-logo-header {
+    margin-left: 30px;
+}
+
+.menu-header {
+    margin-right: 30px;
+}
+
+
+/* Footer Config */
+
+footer {
+    background-color: #2E948A;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    margin: 0 auto;
+    width: 100%;
+
+    margin-top: 30px;
+}
+
+.menu-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-options {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.menu-footer a, .footer-options a {
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px;
+    color: #fff;
+}
+
+.footer-options a {
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 60px;
+    box-sizing: border-box;
+
+}
+
+/* Index Config */
+
+section {
+    max-width: 1440px;
+    margin: 100px auto;
+}
+
+    /* Intro */
+
+#intro  {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#intro h1 {
+    color: #FF4081;
+    font-size: 60px;
+
+}
+
+#intro p {
+    font-size: 27px;
+    margin: 30px 0 70px 0;
+}
+
+#intro a {
+    font-size: 27px;
+    margin: 30px 0;
+    color: #FF4081;
+    text-decoration: none;
+    border: 2px solid #FF4081;
+    border-radius: 60px;
+    box-sizing: border-box;
+    padding: 5px 30px;
+}
+
+    /* Courses */
+
+#courses {
+    display: flex;
+    background-color: #F7F7F7;
+    margin: 0px auto;
+    padding: 40px 15% 20px 15%;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+#begginers, #saving, #independence {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#courses h2 {
+    color: #FF4081;
+    margin: 20px 0;
+}
+
+#courses p {
+    margin-bottom: 30px;
+}
+
+#courses a {
+    font-size: 20px;
+    margin: 30px 0;
+    background-color: #FF4081;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #FF4081;
+    border-radius: 60px;
+    box-sizing: border-box;
+    padding: 5px 30px; 
+}
+
+    /* About Us  */
+
+#about-us {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 0px auto;
+    padding: 40px 15% 20px 15%;
+    width: 100%;
+}
+
+#about-us h3 {
+    font-size: 37px;
+    width: 85%;
+    margin-bottom: 70px;
+    color: #009688;
+}
+
+.testimonial {
+    display: flex;
+    width: 40%;
+    padding: 20px 0;
+}
+
+.testimonial p {
+    width: 300px;
+    margin-left: 20px;
+}
+
+.testimonial span {
+    font-weight: 500;
+}
+
+    /* Content */
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 0px auto;
+    padding: 40px 15% 20px 15%;
+    width: 100%;
+}
+
+#content h3 {
+    font-size: 37px;
+    width: 85%;
+    padding: 20px 0;
+    color: #009688;
+}
+
+.container-content p {
+    width: 300px;
+}
+
+#container-content-link {
+    display: flex;
+    width: 85%;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+#content a {
+    font-size: 30px;
+    margin: 30px 0;
+    color: #FF4081;
+    text-decoration: none;
+    border: 2px solid #FF4081;
+    border-radius: 60px;
+    box-sizing: border-box;
+    padding: 5px 30px;
+}
