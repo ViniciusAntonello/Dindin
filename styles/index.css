@@ -223,8 +223,8 @@ section {
     align-content: center;
     justify-content: space-evenly;
     margin: 0px auto;
+    background-color: #F7F7F7;
     padding: 40px 15% 20px 15%;
-    width: 100%;
 }
 
 #content h3 {
@@ -237,11 +237,13 @@ section {
 #content h4 {
     color: #009688;
     font-size: 1.3rem;
+    margin-top: 10px;
 }
 
 .container-content p {
     width: 300px;
     font-size: 1.2rem;
+    margin-bottom: 20px;
 }
 
 #container-content-link {
