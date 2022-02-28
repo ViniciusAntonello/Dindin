@@ -11,10 +11,9 @@
 header {
     background-color: #2E948A;
     display: flex;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #fff;
-    height: 100px;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
 }
 
@@ -25,6 +24,17 @@ header {
     max-width: 1440px;
     margin: 0 auto;
     width: 100%;
+
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+#header-wrapper img {
+    margin: 2% 5%;
+    width: 100%;
+    height: auto;
 }
 
 .menu-header a {
@@ -33,37 +43,30 @@ header {
     padding: 25px;
 }
 
-.container-logo-header {
-    margin-left: 30px;
-}
-
-.menu-header {
-    margin-right: 30px;
-}
-
 
 /* Footer Config */
 
 footer {
     background-color: #2E948A;
     display: flex;
-    font-size: 20px;
+    font-size: 1.5rem;
     align-items: center;
     justify-content: space-between;
-    height: 200px;
     margin: 0 auto;
     width: 100%;
-
+    flex-wrap: wrap;
     margin-top: 30px;
 }
 
 .menu-footer {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 
 .footer-options {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     margin-right: 30px;
 }
@@ -86,6 +89,12 @@ footer {
 
 }
 
+.container-logo-footer img {
+    margin: 2% 5%;
+    width: 100%;
+    height: auto;
+}
+
 /* Index Config */
 
 section {
@@ -97,6 +106,7 @@ section {
 
 #intro  {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
@@ -124,10 +134,17 @@ section {
     padding: 5px 30px;
 }
 
+.intro-right img {
+    width: 400px;
+    height: auto;
+    padding-top: 30px;
+}
+
     /* Courses */
 
 #courses {
     display: flex;
+    flex-wrap: wrap;
     background-color: #F7F7F7;
     margin: 0px auto;
     padding: 40px 15% 20px 15%;
@@ -170,7 +187,8 @@ section {
     align-content: center;
     justify-content: space-evenly;
     margin: 0px auto;
-    padding: 40px 15% 20px 15%;
+    /* padding: 40px 15% 20px 15%; */
+    padding: 5% 5%;
     width: 100%;
 }
 
@@ -183,6 +201,7 @@ section {
 
 .testimonial {
     display: flex;
+    flex-wrap: wrap;
     width: 40%;
     padding: 20px 0;
 }
@@ -215,8 +234,14 @@ section {
     color: #009688;
 }
 
+#content h4 {
+    color: #009688;
+    font-size: 1.3rem;
+}
+
 .container-content p {
     width: 300px;
+    font-size: 1.2rem;
 }
 
 #container-content-link {
