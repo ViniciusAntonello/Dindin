@@ -101,7 +101,7 @@ footer {
 
 #section-wrapper {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 #intro {
@@ -110,7 +110,7 @@ flex-wrap: wrap;
 align-items: center;
 justify-content: center;
 width: 100%;
-margin: 2% 5%;
+padding: 40px 15% 20px 15%;
 }
 
 #intro h1 {
@@ -124,17 +124,46 @@ margin: 2% 5%;
     font-size: 1.1rem;
 }
 
-#left {
+#intro #left {
     max-width: 50%;
 }
 
-#right img {
+#intro #right img {
     width: 350px;
     height: auto;
 }
 
     /* Classes */
 
-.classes {
+#videos {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 0px auto;
     background-color: #F7F7F7;
+    padding: 40px 15% 20px 15%;
+    width: 100%;
+}
+
+.classes {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 5px solid #c4c4c4;
+    width: 100vw; 
+    padding: 20px 0;
+}
+
+#class-borderless {
+    border: none;
+}
+
+.right h2 {
+    color: #FF4081;
+    font-size: 2rem;
+    margin: 15px 0 30px 0;
+}
+
+.right p {
+    max-width: 500px;
 }
