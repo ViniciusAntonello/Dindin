@@ -97,6 +97,10 @@ footer {
 
 /* main */
 
+body {
+    max-width: 100%;
+}
+
     /* Intro */
 
 #section-wrapper {
@@ -116,10 +120,11 @@ padding: 40px 15% 20px 15%;
 #intro h1 {
     font-size: 2.7rem;
     color: #FF4081;
+    width: 90%;
 }
 
 #intro p {
-    width: 70%;
+    width: 90%;
     margin-top: 20px;
     font-size: 1.1rem;
 }
@@ -135,27 +140,34 @@ padding: 40px 15% 20px 15%;
 
     /* Classes */
 
+iframe {
+    width: 462px;
+    height: 261px;
+}
+
 #videos {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 0px auto;
     background-color: #F7F7F7;
     padding: 40px 15% 20px 15%;
     width: 100%;
+    max-width: 100vw;
 }
 
 .classes {
     display: flex;
     flex-wrap: wrap;
-    border-bottom: 5px solid #c4c4c4;
     width: 100vw; 
     padding: 20px 0;
+    justify-content: space-between;
 }
 
-#class-borderless {
-    border: none;
+.right {
+    padding-left: 3%;
+    margin-right: 20%;
 }
 
 .right h2 {
@@ -165,5 +177,16 @@ padding: 40px 15% 20px 15%;
 }
 
 .right p {
-    max-width: 500px;
+    max-width: 400px;
+}
+
+.test {
+    background-color: #C4C4C4;
+    height: 5px;
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 300px;
+    margin-right: 150px;
+    display: flex;
 }
