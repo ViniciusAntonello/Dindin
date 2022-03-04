@@ -123,7 +123,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 100%;
+    /* width: 100%; */
     padding: 20px;
 }
 
@@ -165,36 +165,41 @@ input::placeholder, textarea::placeholder {
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
 }
 
-  #btn-enviar {
+#btn-enviar {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
-  }
-  
-  #btn-enviar:after {
+}
+
+#btn-enviar:after {
     content: '»';
     position: absolute;
     opacity: 0;  
     top: 14px;
     right: -20px;
     transition: 0.5s;
-  }
-  
-  #btn-enviar:hover{
+}
+
+#btn-enviar:hover{
     padding-right: 24px;
     padding-left:8px;
-  }
-  
-  #btn-enviar:hover:after {
+}
+
+#btn-enviar:hover:after {
     opacity: 1;
     right: 10px;
-  }
+}
+
+#container-img{
+    display: flex;
+    align-items: center;
+}
 
 .img-contact {
     display: flex;
     align-content: center;
-    width: 444px;
+    align-items: center;
 }
 
 
