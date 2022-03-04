@@ -97,9 +97,9 @@ footer {
 
 main {
     margin: 0;
-    padding: 10%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 #container-form h1 {
@@ -113,25 +113,6 @@ main {
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    /* padding: 20px; */
-}
-
-#container-form form * {
-    margin: 20px 0;
-}
-
-
-
-/* #container-form h3 {
-    font-size: 30px;
-    color: #FFA000;
-}
-
-#container-form form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 60%;
     padding: 20px;
 }
 
@@ -140,17 +121,54 @@ main {
 }
 
 input, textarea {
-    width: 100%;
+    width: 90%;
 }
 
-input, textarea, form {
-    border: 1px solid #FFC107;
-    border-radius: 4px;
-} */
+input {
+    height: 35px;
+}
+
+input, textarea {
+    border: 1px solid #686868;
+    border-radius: 7px;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+input::placeholder, textarea::placeholder {
+    font-size: 16px;
+}
+
+#btn-enviar {
+    font-size: 16px;
+    background-color: #FF4081;
+    color: #fff;
+    border: 2px solid #FF4081;
+    border-radius: 60px;
+    box-sizing: border-box;
+    padding: 5px 30px;
+    cursor: pointer;
+
+    /* font-size: 30px;
+    margin: 30px 0;
+    color: #FF4081;
+    text-decoration: none;
+    border: 2px solid #FF4081;
+    border-radius: 60px;
+    box-sizing: border-box;
+    padding: 5px 30px; */
+}
 
 .img-contact {
     display: flex;
     align-content: center;
-    /* padding-left: 10%; */
     width: 444px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .img-contact {
+        display: none;
+    }
 }
