@@ -95,6 +95,17 @@ footer {
     height: auto;
 }
 
+    /* Animation Footer + Header */
+
+.btn-nav:hover {
+    text-decoration: underline;
+}
+
+.footer-options a:hover {
+    color: #2E948A;
+    background-color: #fff;
+}
+
 /* Index Config */
 
 section {
@@ -134,6 +145,11 @@ section {
     padding: 5px 30px;
 }
 
+#intro a:hover {
+    color: #fff;
+    background-color: #FF4081;
+}
+
 .intro-right img {
     width: 400px;
     height: auto;
@@ -167,7 +183,7 @@ section {
     margin-bottom: 30px;
 }
 
-#courses a {
+#courses .btn-start {
     font-size: 20px;
     margin: 30px 0;
     background-color: #FF4081;
@@ -179,6 +195,11 @@ section {
     padding: 5px 30px; 
 }
 
+#courses .btn-start:hover {
+    background-color: #fff;
+    color: #FF4081;
+}
+
     /* About Us  */
 
 #about-us {
@@ -187,7 +208,6 @@ section {
     align-content: center;
     justify-content: space-evenly;
     margin: 0px auto;
-    /* padding: 40px 15% 20px 15%; */
     padding: 5% 5%;
     width: 100%;
 }
@@ -240,6 +260,10 @@ section {
     margin-top: 10px;
 }
 
+.container-content {
+    padding: 5px;
+}
+
 .container-content p {
     width: 300px;
     font-size: 1.2rem;
@@ -262,4 +286,13 @@ section {
     border-radius: 60px;
     box-sizing: border-box;
     padding: 5px 30px;
+}
+
+#content a:hover {
+    color: #fff;
+    background-color: #FF4081;
+}
+
+.container-content:hover {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }

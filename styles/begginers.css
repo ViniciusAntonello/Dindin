@@ -95,6 +95,17 @@ footer {
     height: auto;
 }
 
+    /* Animation Footer + Header */
+
+.btn-nav:hover {
+    text-decoration: underline;
+}
+
+.footer-options a:hover {
+    color: #2E948A;
+    background-color: #fff;
+}
+
 /* main */
 
 body {

@@ -95,6 +95,17 @@ footer {
     height: auto;
 }
 
+    /* Animation Footer + Header */
+
+.btn-nav:hover {
+    text-decoration: underline;
+}
+
+.footer-options a:hover {
+    color: #2E948A;
+    background-color: #fff;
+}
+
 /* main */
 
 #section-wrapper {
@@ -153,8 +164,12 @@ h1 {
     padding-top: 30px;
 }
 
+#option-borderless {
+    border: none;
+}
+
 .btn-now {
-    font-size: 1.5rem;
+    font-size: 23px;
     margin: 30px 0;
     background-color: #419488;
     color: #fff;
@@ -165,8 +180,40 @@ h1 {
     padding: 5px 30px; 
     width: 250px;
     text-align: center;
+    padding: 16px 30px;
+    cursor: pointer;
+    transition: all 0.5s;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+.btn-now {
+    padding: 16px 30px;
+    cursor: pointer;
+    transition: all 0.5s;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
 }
 
-#option-borderless {
-    border: none;
+.btn-now{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn-now:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btn-now:hover{
+    padding-right: 24px;
+    padding-left:8px;
+}
+
+.btn-now:hover:after {
+    opacity: 1;
+    right: 10px;
 }
