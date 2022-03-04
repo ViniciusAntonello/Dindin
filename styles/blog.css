@@ -118,27 +118,27 @@ body {
 }
 
 #intro {
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-justify-content: space-evenly;
-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 #intro h1 {
-    font-size: 2.7rem;
+    font-size: 2rem;
     color: #009688;
-    width: 400px;
+    width: 100%;
 }
 
 #intro p {
-    width: 400px;
+    width: 300px;
     margin-top: 20px;
     font-size: 1.1rem;
 }
 
 #intro #left {
-    max-width: 50%;
+    max-width: 90%;
 }
 
 #intro #right img {
@@ -187,7 +187,7 @@ width: 100%;
 }
 
 #posts img {
-    max-width: 400px;
+    max-width: 350px;
     height: auto;
 }
 
