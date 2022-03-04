@@ -115,11 +115,9 @@ body {
     /* Intro */
 
 #section-wrapper {
-    /* max-width: 1440px; */
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: column; */
     justify-content: space-evenly;
 }
 
