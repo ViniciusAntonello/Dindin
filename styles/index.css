@@ -108,6 +108,10 @@ footer {
 
 /* Index Config */
 
+body {
+    max-width: 100%;
+}
+
 section {
     max-width: 1440px;
     margin: 100px auto;
@@ -208,7 +212,6 @@ section {
     align-content: center;
     justify-content: space-evenly;
     margin: 0px auto;
-    padding: 5% 5%;
     width: 100%;
 }
 
